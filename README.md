@@ -24,7 +24,13 @@ go run main.go -c 2 -l 4
 # build
 ```
 # Mac OS or Linux
+export GOOS=darwin
+export GOARCH=amd64
 go build main.go
+
+unset GOOS
+unset GOARCH
+
 # Windows
 go build main.go -o main.exe
 ```
