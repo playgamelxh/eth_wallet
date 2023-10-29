@@ -41,3 +41,5 @@ go build main.go -o main.exe
 or
 ./main.exe -c 2 -l 4
 ```
+# Donation address
+0x79032bFC86a75E58e265B046cFe0d25555555555
