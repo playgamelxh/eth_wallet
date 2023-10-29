@@ -1,5 +1,15 @@
 # eth_wallet
 Generate wallet addresses with consecutive prefixes or suffixes
+```
+Usage of ./main:
+  -c int
+        The number of CPU used to generate (default 1)
+  -l int
+        The length of the prefix or suffix (default 3)
+        
+./main -c 2 -l 4
+./main.exe -c 2 -l 4
+```
 
 # install go environment
 ```
